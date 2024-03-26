@@ -1,0 +1,512 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+/*Reset Css closed*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/*Header*/
+
+.header {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.header_inner {
+  padding: 28px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 674px;
+  height: 24px;
+  gap: 40px;
+}
+
+.nav {
+  display: flex;
+  width: 600px;
+  height: 24px;
+  justify-content: space-between;
+}
+
+.nav_second {
+  display: flex;
+  width: 78px;
+  height: 24px;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: #4c5866;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/*Intro*/
+.intro {
+  width: 100%;
+  height: 674px;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro_title {
+  color: rgb(76, 88, 102);
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 130px;
+}
+
+.intro_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(133, 133, 155);
+  margin: 30px 0 60px 0;
+}
+
+.intro_buttom {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(120, 117, 254);
+  border: 2px solid rgb(120, 117, 254);
+  padding: 22px 90px;
+}
+
+.intro_image {
+  position: absolute;
+  z-index: 1;
+  left: 750px;
+  top: 20px;
+  width: 600px;
+}
+
+.paper {
+  background-color: rgb(229, 229, 229);
+  padding: 90px 0;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.styding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.styding_link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-top: 1px solid #c0c0c0;
+  padding-top: 19px;
+}
+
+.styding_title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.styding_subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #85859b;
+}
+
+.big_paper_title {
+  font-size: 40px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.big_paper_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #85859b;
+  margin-top: 20px;
+}
+
+.big_paper {
+  margin-top: 91px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.paper_image {
+  width: 930px;
+}
+
+/*SECTION MARKET*/
+
+.market {
+  width: 100%;
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+.market_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market_inner_title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #666666;
+  margin: 20px 0 8px 0;
+}
+
+.market_inner_subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #b5b5bd;
+}
+
+.market_inner_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #85859b;
+  margin: 8px 0 21px 0;
+}
+
+.market_inner_image {
+  width: 255px;
+  height: 180px;
+}
+
+/*Section PARTNERS*/
+
+.partners {
+  width: 100%;
+  padding: 90px 0;
+  background-color: rgb(229, 229, 229);
+}
+
+.partners_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*SECTION SKETCH*/
+
+.sketch {
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  padding: 114px 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.sketch_title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #666666;
+}
+
+.sketch_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #85859b;
+  margin: 10px 0 54.5px 0;
+}
+
+.sketch_button {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #7875fe;
+  border: 2px solid #7875fe;
+  padding: 23.5px 94.5px;
+}
+
+.sketch_image {
+  position: absolute;
+  top: 90px;
+  left: 640px;
+}
+
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+  padding: 27px 0 27px 0;
+  background-color: #4c5866;
+}
+
+.footer_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_social {
+  display: flex;
+  gap: 25px;
+}
+
+/*АДАПТИВ*/
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .intro_image {
+    left: 265px;
+  }
+
+  .flex_nav {
+    justify-content: flex-end;
+  }
+
+  .header_inner {
+    padding: 10px 0;
+  }
+
+  /*INTRO*/
+
+  .intro {
+    height: 470px;
+  }
+
+  .intro_title {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .intro_text {
+    font-size: 18px;
+  }
+
+  .intro_image {
+    width: 270px;
+    height: 668px;
+    left: 460px;
+    top: 90px;
+  }
+
+  /*PAPER*/
+
+  .styding_link {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .styding_subtitle {
+    width: 220px;
+  }
+
+  .paper_image {
+    width: 330px;
+    height: 256px;
+  }
+
+  .big_paper_title {
+    font-size: 30px;
+  }
+
+  .big_paper_text {
+    font-size: 18px;
+  }
+
+  .big_paper {
+    margin: 35px 0 0 0;
+  }
+
+  .paper {
+    padding: 50px 0;
+  }
+
+  /*SECTION MARKET*/
+
+  .market_inner {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .market {
+    padding: 50px 0;
+  }
+
+  .market_inner_link {
+    margin-bottom: 64px;
+  }
+
+  .market_inner_link:nth-child(2n + 1) {
+    margin-bottom: 90px;
+  }
+
+  /*Section PARTNERS*/
+  .pi {
+    width: 150px;
+    height: 80px;
+  }
+
+  .partners {
+    padding: 50px 0;
+  }
+
+  /*SKETCH*/
+  .sketch {
+    padding: 55px 0;
+    height: 640px;
+  }
+
+  .sketch_title {
+    font-size: 30px;
+  }
+
+  .sketch_text {
+    font-size: 18px;
+    margin: 20px 0 60px;
+  }
+
+  .sketch_image {
+    width: 449px;
+    height: 341px;
+    top: 40px;
+    left: 399px;
+  }
+}
